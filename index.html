@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Devocionais App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📖 Minhas Devocionais</h1>
+    <p class="contador">Total de devocionais: <span id="contador">0</span></p>
+
+    <form id="devocionalForm">
+      <input type="text" id="titulo" placeholder="Título" required />
+      <textarea id="conteudo" placeholder="Escreva seu devocional" required></textarea>
+      <div class="buttons">
+        <button type="submit" class="btn salvar">💾 Salvar</button>
+        <button type="button" id="limparBtn" class="btn limpar">🧹 Limpar Tudo</button>
+      </div>
+    </form>
+
+    <h2>Devocionais recentes</h2>
+    <ul id="listaDevocionais"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
