@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# Banco local
+devocionais.db
+
+# Logs
+*.log
+
+# Outros arquivos desnecessários
+.env
